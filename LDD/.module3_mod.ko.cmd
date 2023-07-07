@@ -1,0 +1,1 @@
+cmd_/home/kamal/mirafra/mirafra_training/LDD/module3_mod.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/kamal/mirafra/mirafra_training/LDD/module3_mod.ko /home/kamal/mirafra/mirafra_training/LDD/module3_mod.o /home/kamal/mirafra/mirafra_training/LDD/module3_mod.mod.o;  true

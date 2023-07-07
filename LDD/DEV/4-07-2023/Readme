@@ -1,0 +1,24 @@
+1. Write three different strings into the driver from app.
+   a) "Mirafra"
+   b) "Technologies"
+   c) "Hyderabad"
+
+   and read all the strings at a time
+
+2. write the above strings seperately and read them seperately from the driver.
+    (implement write and read consecutively/alternatively)
+
+3. write/insert/push the string "technologies" after the string "Mirafra" before the string "Hyderabad"  and read all.
+   o/p: "Mirafra technologies Hyderabad"(1 and 3 are same)
+
+4. wap to make the user to write and read from the driver. Make sure that when one user/process is writing or reading from the driver the
+   other user/process cannot enter into the driver.?
+
+5. wap to enter a string from the app. The driver need to reverse the string and send back to the app?
+
+6. wap to enter max of 4k bytes into the driver. the driver should not accept more than that max limit.
+
+7. wap to initialize 1k stars (1024 *'s) into the driver and come back to 10th position and write "sree embedded" 
+   and go to the 100th position and write the string "Technologies" then read the complete string and display from app?
+     
+8. Restrict the size of the buffer maximum to 1000 bytes in driver and do the 7th program. what is your observation?
