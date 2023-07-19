@@ -7,10 +7,11 @@
 #include<string.h>
 int main()
 {
-	char m[4096];
+	char m[4496];
 	int r,i;
-	for( i=0;i<4096;i++)
+	for( i=0;i<4496;i++)
 		m[i]='*';
+		m[i]=0;
 	printf("%d\n",i);
 	printf("%ld\n",strlen(m));
 	int fd=open("/dev/TASK1",O_RDWR);

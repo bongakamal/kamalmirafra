@@ -1,1 +1,0 @@
-cmd_/home/kamal/mirafra/mirafra_training/LDD/Module.symvers := sed 's/\.ko$$/\.o/' /home/kamal/mirafra/mirafra_training/LDD/modules.order | scripts/mod/modpost -m -a  -o /home/kamal/mirafra/mirafra_training/LDD/Module.symvers -e -i Module.symvers   -T -

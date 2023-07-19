@@ -8,7 +8,7 @@
 #include <linux/device.h>
 #include <linux/err.h>
 dev_t dev=0;
-char kb[4096];
+char kb[5096];
 static struct cdev mycdev;
 static struct class *cdev_class;
 static int my_open( struct inode *inode,struct file *file);
@@ -36,11 +36,6 @@ static int my_open( struct inode *inode,struct file *file)
 
 static ssize_t my_read(struct file *file, char __user *buffer, size_t len, loff_t *off)
 {
-printk("len%d\n",len);
-
-	if(len>4096)
-		len=4096;
-printk("len%d\n",len);
 	copy_to_user(buffer,kb,len);
 	printk("read done\n");
 	return 0;
@@ -49,13 +44,9 @@ printk("len%d\n",len);
 
 static ssize_t my_write(struct file *file,const char __user *buffer,size_t len,loff_t *off)
 {
-printk("len%d\n",len);
-
 	if(len>4096)
-		len=4096;
-printk("len%d\n",len);
+		return -1;
 	copy_from_user(kb,buffer,len);
-printk("KB:%s\n",kb);
 	printk("write done\n");
 	return 0;
 }
