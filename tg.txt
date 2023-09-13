@@ -1,0 +1,135 @@
+km@KernelMasters:~/MIRAFRA/kamalmirafra$ git log
+commit b89db679bfa413d56f03375d367a6df91f532b09 (HEAD -> main)
+Author: bongakamal <bkreddy0705@gmail.com>
+Date:   Wed Sep 13 17:28:58 2023 +0530
+
+    example
+
+commit 0f9b1fc410e0d3c6713c97b9e970d660166d1d70
+Merge: af45306 86a76ce
+Author: bongakamal <128719234+bongakamal@users.noreply.github.com>
+Date:   Tue Aug 22 15:11:40 2023 +0530
+
+    Merge pull request #4 from bongakamal/practi
+    
+    addition
+
+commit af453062d8c354409ef788e0a93e9b6037b97e67 (origin/main, origin/HEAD)
+Merge: 1a14350 2141dcb
+Author: bongakamal <bkreddy0705@gmail.com>
+Date:   Tue Aug 22 14:53:58 2023 +0530
+
+    Merge https://github.com/bongakamal/kamalmirafra into main
+
+commit 1a143505eb6466f3c759b299bddba555f5095c87
+Author: bongakamal <bkreddy0705@gmail.com>
+Date:   Tue Aug 22 14:52:17 2023 +0530
+
+    1.c
+
+commit 209244b159002be8fff99a858dc47e929e828557 (ttt)
+Author: bongakamal <bkreddy0705@gmail.com>
+Date:   Tue Aug 22 13:20:53 2023 +0530
+
+    kamal
+
+commit 86a76ce0932e4f9ae94af968038a12b43c5a2373 (origin/practi, practi)
+Author: bongakamal <bkreddy0705@gmail.com>
+Date:   Tue Aug 22 12:18:45 2023 +0530
+
+    addition
+
+commit 2141dcbab9a25e7bca1c30ddb3dd187bed61388b
+Merge: e3395bf 3b9bb6d
+Author: bongakamal <128719234+bongakamal@users.noreply.github.com>
+Date:   Tue Aug 22 12:15:10 2023 +0530
+
+    Merge pull request #1 from bongakamal/practi
+    
+    onr
+
+commit 3b9bb6df58d9a5c87f46067aedb30d3f3b734761
+Author: bongakamal <bkreddy0705@gmail.com>
+Date:   Tue Aug 22 12:08:38 2023 +0530
+
+    onr
+
+commit e3395bf801bf40fc75c1b9ce2e2db037d6af6191
+Merge: 938ce81 929bd8c
+Author: bongakamal <bkreddy0705@gmail.com>
+Date:   Wed Jul 19 15:04:16 2023 +0530
+
+    Merge https://github.com/bongakamal/kamalmirafra into main
+
+commit 938ce816463daa26c10b3807c76d55e4b034f640
+Author: bongakamal <bkreddy0705@gmail.com>
+Date:   Wed Jul 19 15:03:23 2023 +0530
+
+    testing head
+
+commit 929bd8c439bb67c2db894e230d612a0a7d9dafa6
+Author: bongakamal <128719234+bongakamal@users.noreply.github.com>
+Date:   Wed Jul 19 15:02:20 2023 +0530
+
+    Delete .moduler.ko.cmd
+
+commit b4573710add12e4e1ab96077a0b50d5bb8554bf1
+Author: bongakamal <128719234+bongakamal@users.noreply.github.com>
+Date:   Wed Jul 19 15:02:03 2023 +0530
+
+    Delete .moduler.c.swp
+
+commit c9863cc7358c4d23e40dcda325d5f85840fb6ecd
+Author: bongakamal <128719234+bongakamal@users.noreply.github.com>
+Date:   Wed Jul 19 15:01:29 2023 +0530
+
+    Delete .test.c.swp
+
+commit 4ebca857f7f8963f3ddbd15d078ec4ecdef4ccf7
+Author: bongakamal <128719234+bongakamal@users.noreply.github.com>
+Date:   Wed Jul 19 15:01:16 2023 +0530
+
+    Delete .2_chrdevc.c.swp
+
+commit 3763b423e07f59d6868d430cd06dc131d45ac145
+Author: bongakamal <128719234+bongakamal@users.noreply.github.com>
+Date:   Wed Jul 19 15:00:56 2023 +0530
+
+    Delete .2_chrdevc.c.swo
+
+commit b8fbb6aad00002585c1e406030389f14783d66ca
+Author: bongakamal <128719234+bongakamal@users.noreply.github.com>
+Date:   Wed Jul 19 15:00:40 2023 +0530
+
+    Delete .2_chrdevc.c.swn
+
+commit b358ea1ee8d5495bf7e8beadf7a64a1a471428e7
+Author: bongakamal <bkreddy0705@gmail.com>
+Date:   Wed Jul 19 14:56:12 2023 +0530
+
+    restore
+
+commit 2cee4215cd75e681c7a5b4c2305e4d53740a6df0
+Author: bongakamal <bkreddy0705@gmail.com>
+Date:   Fri Jul 7 12:07:42 2023 +0530
+
+    recovery
+
+commit 06b243e553c31af0889399003c7b83213f170fa7
+Author: bongakamal <bkreddy0705@gmail.com>
+Date:   Fri Jul 7 11:36:05 2023 +0530
+
+    t.t checking
+
+commit 0bf01e3fc954a96016fe61a40ace7c35fdafb441
+Author: bongakamal <128719234+bongakamal@users.noreply.github.com>
+Date:   Fri Jul 7 11:23:55 2023 +0530
+
+    Create README.md
+
+commit 2f2a53a8b8105a7fe01d8910b9be606258abdd0e
+Author: bongakamal <128719234+bongakamal@users.noreply.github.com>
+Date:   Thu Mar 23 20:16:17 2023 +0530
+
+    Initial commit
+
